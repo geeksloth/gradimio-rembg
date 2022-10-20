@@ -1,5 +1,5 @@
 # Gradimio-rembg
-A basic example of Gradimio template. This is integrated of Gradio, RemBG, numpy and other.
+A basic example of [Gradimio](https://github.com/geeksloth/gradimio/ "Gradimio") template. This is integrated of [Gradio](https://gradio.app/ "Gradio"), [RemBG](https://pypi.org/project/rembg/ "RemBG"), numpy and other.
 
 ![Gradimio-rembg](static/ss.jpg "Gradimio-rembg screenshot")
 
