@@ -1,7 +1,7 @@
 # Gradimio-rembg
 A basic example of [Gradimio](https://github.com/geeksloth/gradimio/ "Gradimio") template. This is integrated of [Gradio](https://gradio.app/ "Gradio"), [RemBG](https://pypi.org/project/rembg/ "RemBG"), numpy and other.
 
-![Gradimio-rembg](static/ss.jpg "Gradimio-rembg screenshot")
+![Gradimio-rembg](static/ss2.jpg "Gradimio-rembg screenshot")
 
 
 
@@ -10,11 +10,12 @@ A basic example of [Gradimio](https://github.com/geeksloth/gradimio/ "Gradimio")
 ```bash
 git clone https://github.com/geeksloth/gradimio-rembg.git && cd gradimio-rembg
 ```
-2. Run the container
+2. [Recommend] Load the ```u2net.onnx (168M)``` model manually from ```https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab``` to the gradiomio-rembg directory
+3. Run the container
 ```bash
 docker-compose up
 ```
-3. Access it via your browser:
+4. Access it via your browser:
 ```127.0.0.1:7860```
 
 # Optional customization
