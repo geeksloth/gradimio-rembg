@@ -1,0 +1,13 @@
+version: '3'
+services:
+  gradimio-rembg:
+    build:
+      #network: host
+      dockerfile: "Dockerfile"
+      context: .
+    ports:
+      - "7860:7860"
+    volumes:
+      - .:/gradimio-rembg
+    working_dir: /gradimio-rembg
+    command: ["python3", "main.py"]
