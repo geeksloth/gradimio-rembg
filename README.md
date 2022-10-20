@@ -10,7 +10,7 @@ A basic example of [Gradimio](https://github.com/geeksloth/gradimio/ "Gradimio")
 ```bash
 git clone https://github.com/geeksloth/gradimio-rembg.git && cd gradimio-rembg
 ```
-2. [Recommend] Load the [u2net.onnx (168M)](https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab "u2net.onnx (168M)") to the gradiomio-rembg directory.
+2. [Important] Load and save the [u2net.onnx (168M)](https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab "u2net.onnx (168M)") to the ```gradiomio-rembg/src/``` directory.
 3. Run the container
 ```bash
 docker-compose up
