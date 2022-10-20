@@ -9,5 +9,6 @@ services:
       - "7860:7860"
     volumes:
       - .:/gradimio-rembg
+      - ./src/u2net.onnx:/root/.u2net/u2net.onnx
     working_dir: /gradimio-rembg
     command: ["python3", "main.py"]
