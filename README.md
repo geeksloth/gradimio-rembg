@@ -17,6 +17,9 @@ docker-compose up
 3. Access it via your browser:
 ```127.0.0.1:7860```
 
+# Optional customization
+* If you have GPU support, modify the ```Dockerfile``` to change ```rembg``` to ```rembg[gpu]```.
+
 # Offcial docs
 1. Gradio https://gradio.app/
 2. RemBG https://pypi.org/project/rembg/
