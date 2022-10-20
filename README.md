@@ -5,12 +5,12 @@ A basic example of [Gradimio](https://github.com/geeksloth/gradimio/ "Gradimio")
 
 
 
-# Getting Started
+## Getting Started
 1. Clone this repo and get into it
 ```bash
 git clone https://github.com/geeksloth/gradimio-rembg.git && cd gradimio-rembg
 ```
-2. [Recommend] Load the ```u2net.onnx (168M)``` model manually from ```https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab``` to the gradiomio-rembg directory
+2. [Recommend] Load the [u2net.onnx (168M)](https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab "u2net.onnx (168M)") to the gradiomio-rembg directory.
 3. Run the container
 ```bash
 docker-compose up
@@ -18,9 +18,9 @@ docker-compose up
 4. Access it via your browser:
 ```127.0.0.1:7860```
 
-# Optional customization
+## Optional customization
 * If you have GPU support, modify the ```Dockerfile``` to change ```rembg``` to ```rembg[gpu]```.
 
-# Offcial docs
+## Offcial docs
 1. Gradio https://gradio.app/
 2. RemBG https://pypi.org/project/rembg/
